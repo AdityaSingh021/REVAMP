@@ -1,0 +1,12 @@
+<resources>
+    <string name="hyperlink">Revamp is an app created for a Smart Classroom Automation Project using Internet of Things and other Emerging Technologies. The main aim of this project is to enable automation in a classroom environment and save energy using Internet of Things (IoT).
+  To know more <a href ="https://linktr.ee/RevampDevelopers?utm_source=linktree_admin_share">click here</a></string>
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#FFFFFF</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorAccent">@color/white</item>
+    </style>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

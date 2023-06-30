@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1046932074881",
+    "project_id": "revamp1-7b80b",
+    "storage_bucket": "revamp1-7b80b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1046932074881:android:2d24ee11829d84fd2e3880",
+        "android_client_info": {
+          "package_name": "com.example.revamp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1046932074881-elu90a44kfjjcmldg1to0g2jl37j4ur6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMqwoXtXomi6n9l7l2nLBXUufR3R7t-d4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1046932074881-elu90a44kfjjcmldg1to0g2jl37j4ur6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

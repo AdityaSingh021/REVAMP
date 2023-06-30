@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Control_window"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/weather_info_rect">
+
+        <RelativeLayout
+            android:id="@+id/back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true">
+
+            <ImageView
+
+                android:id="@+id/back_button"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_marginVertical="10dp"
+                android:layout_marginStart="20dp"
+                android:src="@drawable/ic_baseline_keyboard_backspace_24" />
+
+            <!--            <TextView-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_centerVertical="true"-->
+            <!--                android:layout_marginStart="50dp"-->
+            <!--                android:text="Dashboard"-->
+            <!--                android:textSize="20dp"-->
+            <!--                android:textStyle="bold" />-->
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_marginTop="-10dp"
+            android:layout_below="@+id/back"
+            android:id="@+id/temp_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:id="@+id/temp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="5dp"
+                android:text="Temperature"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/celsius"
+                android:layout_width="wrap_content"
+                android:layout_height="64dp"
+                android:layout_below="@+id/temp"
+                android:layout_gravity="top"
+                android:layout_marginTop="-10dp"
+                android:text="28°C"
+                android:textSize="60dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/celsius"
+                android:layout_marginVertical="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_marginTop="-5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Humidity"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/humidity_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="41"
+                    android:textSize="35dp" />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/temp_info"
+            android:layout_marginVertical="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="10dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/ic_baseline_location_on_24" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:text="Greater Noida, Uttar Pradesh"
+                android:textSize="20dp"/>
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/weather_img"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/cloud" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="130dp"
+                android:layout_centerHorizontal="true"
+                android:text="Cloudy"
+                android:textSize="20dp" />
+        </RelativeLayout>
+
+
+            </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="Devices"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="25dp" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:src="@drawable/menu" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:paddingHorizontal="10dp">
+
+                <ImageView
+
+                    android:layout_width="match_parent"
+                    android:id="@+id/light1"
+                    android:layout_height="70dp"
+                    android:src="@drawable/black_rect"/>
+
+
+                <ImageView
+                    android:id="@+id/bulb1_off"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:src="@drawable/ic_baseline_toggle_off_24" />
+
+                <ImageView
+                    android:id="@+id/bulb1_on_button"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:src="@drawable/ic_baseline_toggle_on_24" />
+
+                <ImageView
+                    android:id="@+id/bulb1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/bulb_off" />
+
+                <ImageView
+                    android:id="@+id/bulb1_on"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/bulb_on" />
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Light 1"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_below="@+id/light1"/>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:paddingHorizontal="10dp">
+
+                <ImageView
+
+                    android:layout_width="match_parent"
+                    android:id="@+id/light2"
+                    android:layout_height="70dp"
+                    android:src="@drawable/black_rect"/>
+                <ImageView
+                    android:id="@+id/bulb2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/bulb_on" />
+
+                <ImageView
+                    android:id="@+id/bulb2_off"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/bulb_off" />
+
+
+                <ImageView
+                    android:id="@+id/bulb2_on_button"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:src="@drawable/ic_baseline_toggle_on_24" />
+
+                <ImageView
+                    android:id="@+id/bulb2_off_button"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:src="@drawable/ic_baseline_toggle_off_24" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/light2"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Light 1"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
+
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:paddingHorizontal="10dp">
+
+                <ImageView
+
+                    android:layout_width="match_parent"
+                    android:id="@+id/light3"
+                    android:layout_height="70dp"
+                    android:src="@drawable/black_rect"/>
+
+                <ImageView
+
+                    android:id="@+id/fan1_on"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:src="@drawable/fan_on" />
+
+                <ImageView
+
+                    android:id="@+id/fan1_off"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:src="@drawable/fan" />
+
+
+
+
+                <ImageView
+                    android:layout_alignParentEnd="true"
+                    android:layout_width="70dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginStart="10dp"
+                    android:id="@+id/bulb3_off"
+                    android:layout_height="70dp"
+                    android:src="@drawable/ic_baseline_toggle_off_24"/>
+
+                <ImageView
+                    android:id="@+id/fan1_on_button"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:src="@drawable/ic_baseline_toggle_on_24" />
+
+                <ImageView
+                    android:id="@+id/fan1_off_button"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:src="@drawable/ic_baseline_toggle_off_24" />
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Light 1"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_below="@+id/light3"/>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:paddingHorizontal="10dp">
+
+                <ImageView
+
+                    android:layout_width="match_parent"
+                    android:id="@+id/light4"
+                    android:layout_height="70dp"
+                    android:src="@drawable/black_rect"/>
+
+
+                <ImageView
+
+                    android:id="@+id/fan2_on"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:src="@drawable/fan_on" />
+
+                <ImageView
+
+                    android:id="@+id/fan2_off"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:src="@drawable/fan" />
+
+                <ImageView
+                    android:layout_alignParentEnd="true"
+                    android:layout_width="70dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginStart="10dp"
+                    android:id="@+id/bulb4_off"
+                    android:layout_height="70dp"
+                    android:src="@drawable/ic_baseline_toggle_off_24"/>
+
+                <ImageView
+                    android:id="@+id/fan2_on_button"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:src="@drawable/ic_baseline_toggle_on_24" />
+
+                <ImageView
+                    android:id="@+id/fan2_off_button"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:src="@drawable/ic_baseline_toggle_off_24" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/light4"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Light 2"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
+
+
+            </RelativeLayout>
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/grey_rect"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="20dp">
+            <RelativeLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Add a Device"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25dp" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="10dp"
+                android:src="@drawable/add" />
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="10dp"
+        android:src="@drawable/ic_baseline_lightbulb_24" />
+
+
+
+</LinearLayout>
