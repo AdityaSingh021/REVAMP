@@ -32,6 +32,7 @@ Make sure to have the necessary permissions set in the AndroidManifest.xml file 
 
 # Contributors
 Aditya Singh
+
 Shiv Shikhar Sinha
 
 #License
