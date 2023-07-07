@@ -1,5 +1,5 @@
 # REVAMP- A classRoom Automation App
-ClassRoom Automation App is an Android application that allows users to control electric appliances in a classroom remotely using their mobile devices. With this app, users can easily turn on/off lights, fans, projectors, and other appliances from anywhere around the world.
+ReVamp is an Android application that allows users to control electric appliances in a classroom remotely using their mobile devices. With this app, users can easily turn on/off lights, fans, projectors, and other appliances from anywhere around the world.
 
 # Features
 Remote Control: Users can control electric appliances in the classroom remotely using their mobile devices.
