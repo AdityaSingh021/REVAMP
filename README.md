@@ -25,7 +25,7 @@ Make sure to have the necessary permissions set in the AndroidManifest.xml file 
 
 Screenshots
 
-<img src="https://github.com/AdityaSingh021/REVAMP/assets/111244358/4fd0f45e-cee6-481d-a75f-36a3382a9c0e" width="100" height="100" />
+<img src="https://github.com/AdityaSingh021/REVAMP/assets/111244358/4fd0f45e-cee6-481d-a75f-36a3382a9c0e" width="300" height="600" />
 ![ControlWindow](https://github.com/AdityaSingh021/REVAMP/assets/111244358/4fd0f45e-cee6-481d-a75f-36a3382a9c0e)
 
 
