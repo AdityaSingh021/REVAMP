@@ -23,7 +23,8 @@ Connect your Android device to the computer or use an emulator.
 Build and run the app on your device/emulator.
 Make sure to have the necessary permissions set in the AndroidManifest.xml file and configure the Firebase connection parameters according to your setup.
 
-# Screenshots
+Screenshots
+
 ![ControlWindow](https://github.com/AdityaSingh021/REVAMP/assets/111244358/4fd0f45e-cee6-481d-a75f-36a3382a9c0e)
 
 
