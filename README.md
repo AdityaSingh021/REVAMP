@@ -24,7 +24,16 @@ Build and run the app on your device/emulator.
 Make sure to have the necessary permissions set in the AndroidManifest.xml file and configure the Firebase connection parameters according to your setup.
 
 # Screenshots
-Screenshot 1 Screenshot 2
+![ControlWindow](https://github.com/AdityaSingh021/REVAMP/assets/111244358/4fd0f45e-cee6-481d-a75f-36a3382a9c0e)
+
+
+![DashBoard](https://github.com/AdityaSingh021/REVAMP/assets/111244358/05ba0b50-3e8e-4aa7-bfa9-0979016f5c2a)
+
+
+![Info](https://github.com/AdityaSingh021/REVAMP/assets/111244358/d4a329fa-c952-4a8e-ae03-c6bcc6625b74)
+
+
+![Profile](https://github.com/AdityaSingh021/REVAMP/assets/111244358/cd7bae79-bdb2-47f6-bf1a-f16ee7971dc0)
 
 # Contributors
 Aditya Singh
